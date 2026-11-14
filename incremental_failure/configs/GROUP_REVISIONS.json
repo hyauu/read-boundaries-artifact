@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-14T05:43:32.976766+00:00",
+  "revision": "incremental_failure_v1.2",
+  "all_future_units_use_short_paths": true,
+  "groups": [
+    {
+      "history_id": 81001,
+      "site_id": "P2",
+      "selected_attempt": "attempt-002",
+      "units": [
+        "INCFAIL_81001_P2_NO_FAULT_COORDINATED",
+        "INCFAIL_81001_P2_NO_FAULT_NATIVE",
+        "INCFAIL_81001_P2_INJECT_DOUBLE_READ",
+        "INCFAIL_81001_P2_INJECT_NATIVE",
+        "INCFAIL_81001_P2_INJECT_COORDINATED",
+        "INCFAIL_81001_P2_INJECT_EPOCH_VALIDATED",
+        "INCFAIL_81001_P2_NO_FAULT_DOUBLE_READ",
+        "INCFAIL_81001_P2_NO_FAULT_EPOCH_VALIDATED"
+      ],
+      "repair": "engineering/repairs/002_windows_path_limit/REPAIR.json"
+    },
+    {
+      "history_id": 81002,
+      "site_id": "P2",
+      "selected_attempt": "attempt-002",
+      "units": [
+        "INCFAIL_81002_P2_NO_FAULT_NATIVE",
+        "INCFAIL_81002_P2_INJECT_DOUBLE_READ",
+        "INCFAIL_81002_P2_INJECT_NATIVE",
+        "INCFAIL_81002_P2_INJECT_COORDINATED",
+        "INCFAIL_81002_P2_INJECT_EPOCH_VALIDATED",
+        "INCFAIL_81002_P2_NO_FAULT_DOUBLE_READ",
+        "INCFAIL_81002_P2_NO_FAULT_EPOCH_VALIDATED",
+        "INCFAIL_81002_P2_NO_FAULT_COORDINATED"
+      ],
+      "repair": "engineering/repairs/003_device_interruption_restart/REPAIR.json"
+    }
+  ]
+}

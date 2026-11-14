@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "rows": 4700,
+  "all_csv_cells_exactly_equal": true,
+  "csv_bytes_equal": false,
+  "numpy_only_no_upstream_checkout": true,
+  "native_formatter_loaded": false,
+  "external_connections_blocked_during_check": true,
+  "new_experiments": 0,
+  "csv_equal_after_utf8_bom_removal": true,
+  "byte_difference_explanation": "Frozen CSV writer emits a UTF-8 BOM; the anonymized export omits it. All remaining bytes match."
+}

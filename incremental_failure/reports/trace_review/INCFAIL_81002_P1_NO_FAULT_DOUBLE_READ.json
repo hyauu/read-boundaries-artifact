@@ -1,0 +1,15 @@
+{
+  "unit": "INCFAIL_81002_P1_NO_FAULT_DOUBLE_READ",
+  "reviewed_at": "2026-11-14T04:11:10.921315+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read complete exact delta against reviewed P2 double-read control. P1 site135 observed before withdrawal, no fault; nonempty withdraw151 precedes canonical publish ACK. All15 read rows publish second of two equal complete compatible v1 candidates; no discarded/failing candidates or changed state/binding errors. Target incremental, R1 unchanged, R2 full rebuild disabled. Read all update arguments/times, phase drains, recovery trigger safety times, three canonical-v1 checkpoint maps, every changed payload hash and ID. Latencies133.213\u2013168.873ms. Thirty candidates cross-check with no disagreements; full checkpoint graph/vector supplemental pending.",
+  "raw_seal_sha256": "1976dbf27368e357c8bf973f1ee4e538fc66407bc369d77fa5efd5a200b5bd1f",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T04:12:36.553680+00:00",
+    "display": "reports/review_displays/81002_P1_checkpoint_content.txt",
+    "scope": "Actually read all 24 phase projections through exact shared BASIS and complete per-unit UUID maps: every node text/type/parent, all edges, and every vector text/document/parent field. Metadata/vector coordinates excluded.",
+    "observation": "Four control units: B1/B1/B2, nine v1 nodes, ten edges, full v1 vector payloads with ordering change on R2. Four injected P1 units: B3/B4/B4; S0 has13 nodes and19 edges covering both city/employer versions, two chunk/summary vector rows and18 edge-text entries. TextDocument node name already v1 while separately read canonical table remains v0; these are distinct layers. R1/R2 remove old derived values and retain complete v1. Gate/Epoch refuse service although observer sees the mixed state."
+  }
+}

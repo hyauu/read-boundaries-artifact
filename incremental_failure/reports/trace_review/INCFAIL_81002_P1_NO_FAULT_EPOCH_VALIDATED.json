@@ -1,0 +1,15 @@
+{
+  "unit": "INCFAIL_81002_P1_NO_FAULT_EPOCH_VALIDATED",
+  "reviewed_at": "2026-11-14T04:11:22.918102+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read all exact delta records against reviewed P2 epoch control. P1 site114 before withdrawal130 and canonical ACK, no injected fault. All15 complete compatible v1 reads validate stable even epoch2/4/6 by phase; all unchanged evidence inherited exactly. Target actual incremental, R1 unchanged, R2 explicit False full rebuild. Read all new source IDs/hashes, 15 latencies72.258\u201390.404ms, update timings, safe recovery starts, zero-pending drains and canonicalv1 checkpoint entries. No candidate discard/error or independent disagreement. Supplemental checkpoint graph/vector content pending.",
+  "raw_seal_sha256": "ab9aebd6e7631e2ab06fbc4a4f7a307f20e5480b2e0f949c0ed8eb9ceb983f79",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T04:12:36.556028+00:00",
+    "display": "reports/review_displays/81002_P1_checkpoint_content.txt",
+    "scope": "Actually read all 24 phase projections through exact shared BASIS and complete per-unit UUID maps: every node text/type/parent, all edges, and every vector text/document/parent field. Metadata/vector coordinates excluded.",
+    "observation": "Four control units: B1/B1/B2, nine v1 nodes, ten edges, full v1 vector payloads with ordering change on R2. Four injected P1 units: B3/B4/B4; S0 has13 nodes and19 edges covering both city/employer versions, two chunk/summary vector rows and18 edge-text entries. TextDocument node name already v1 while separately read canonical table remains v0; these are distinct layers. R1/R2 remove old derived values and retain complete v1. Gate/Epoch refuse service although observer sees the mixed state."
+  }
+}

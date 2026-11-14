@@ -1,0 +1,16 @@
+{
+  "unit": "INCFAIL_81001_P1_NO_FAULT_NATIVE",
+  "reviewed_at": "2026-11-14T04:20:21.999649+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read complete coded exact delta/dictionaries against reviewed history81002 P1 Native control. Fifteen single complete compatible v1 services, canonical/head1; target actual incremental, same-input R1 unchanged, R2 explicit False full rebuild disabled. All source-ID/hash changes, latencies74.103\u201390.463ms, pre-withdraw P1 followed by real delete/publication ACK, update/recovery timing and zero-pending drains read. Three checkpoint identity/timing changes read with unchanged complete v1 inventories. No fault/error/discard or crosscheck disagreement. Supplemental full graph/vector checkpoint reading pending.",
+  "raw_seal_sha256": "6dd0c8e24d90d3ad210bbd06e82d2764e0effdad2e5ff5c7234a4e56fe319ddb",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T04:20:45.749581+00:00",
+    "display": "reports/review_displays/81001_P1_checkpoint_content.txt",
+    "delta": "reports/review_displays/81001_P1_checkpoint_content.delta.json",
+    "scope": "Actually read every exact checkpoint delta against the already fully read history81002/P1 batch, with an explicit unit renaming and proven reconstruction. All TEXT/BASIS/phase maps and unlisted IDs are exactly equal; every changed node/edge/vector identifier was displayed and read.",
+    "observation": "Four controls remain B1/B1/B2 (nine v1 nodes, ten edges, complete vectors); four injected P1 units remain B3/B4/B4 (13 mixed nodes and19 edges in S0, then nine v1 nodes/ten edges after recovery). Same-source parent mappings and all vector text fields are preserved. S0 TextDocument name is already v1 although separately sampled canonicalData stays v0. No metadata/vector-number line-by-line reading claimed."
+  }
+}

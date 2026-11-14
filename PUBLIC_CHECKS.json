@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scan_scope": "Every published source file reconstructed from gzip fragments; filenames, user-home paths, known author/account/affiliation strings, common secret patterns, email candidates, JSON/JSONL parsing and Python syntax. Not a guarantee against all possible re-identification techniques.",
+  "source_files_checked": 18115,
+  "files_with_export_byte_changes": 325,
+  "unchanged_source_files": 17790,
+  "json_records_validated": 2852492,
+  "detected_personal_or_secret_patterns": 0,
+  "pdfs_or_images_published": 0,
+  "archive_gzip_original_filenames": false,
+  "gzip_timestamp": 0,
+  "zip_timestamp": "1980-01-01",
+  "selected_raw_units": 152,
+  "selected_logical_reads": 2376,
+  "cognee_formal_runs": 600,
+  "hindsight_accepted_runs": 70,
+  "new_experiments": 0,
+  "review_kind": "Primary AI agent plus automated release checks; not independent human review",
+  "documentation_update_check": "Terminology mapping added; two exported comment/protocol phrases removed or neutralized. All other source bytes match the preceding checked export; the Python syntax tree is unchanged."
+}

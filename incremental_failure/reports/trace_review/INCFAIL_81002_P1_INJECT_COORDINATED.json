@@ -1,0 +1,15 @@
+{
+  "unit": "INCFAIL_81002_P1_INJECT_COORDINATED",
+  "reviewed_at": "2026-11-14T04:10:42.618927+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read exact reconstructed display deltas against already-reviewed history81001/P2 coordinated. P1 seq115/116 fires after ACK and before delete/publish, so no withdrawal ACK; native error handler returns, hooks restored and drains zero. Five S0 DIRTY refusals have no service candidate; observer shows canonicalv0 plus two old/new chunk-summary pairs and vector counts2/18/3/5/1/2. R1 default chunks_not_tiling full rebuild and explicit R2 disabled full rebuild recover canonicalv1 and complete v1 candidate in every S1/S2 read; Gate returns READY. All15 rows, hashes, IDs, args/times/recovery intervals and checkpoint changes read; refusal4.047\u201312.500ms, returned65.646\u201385.974ms. Full checkpoint graph/vector supplemental pending.",
+  "raw_seal_sha256": "459b9ab7e086c95422ae9e8b3a72fc5e4bcb85ba27f0fbb645e87d470365ae6d",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T04:12:36.539379+00:00",
+    "display": "reports/review_displays/81002_P1_checkpoint_content.txt",
+    "scope": "Actually read all 24 phase projections through exact shared BASIS and complete per-unit UUID maps: every node text/type/parent, all edges, and every vector text/document/parent field. Metadata/vector coordinates excluded.",
+    "observation": "Four control units: B1/B1/B2, nine v1 nodes, ten edges, full v1 vector payloads with ordering change on R2. Four injected P1 units: B3/B4/B4; S0 has13 nodes and19 edges covering both city/employer versions, two chunk/summary vector rows and18 edge-text entries. TextDocument node name already v1 while separately read canonical table remains v0; these are distinct layers. R1/R2 remove old derived values and retain complete v1. Gate/Epoch refuse service although observer sees the mixed state."
+  }
+}

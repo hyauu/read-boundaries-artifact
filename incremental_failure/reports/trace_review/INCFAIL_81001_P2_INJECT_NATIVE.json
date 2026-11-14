@@ -1,0 +1,14 @@
+{
+  "unit": "INCFAIL_81001_P2_INJECT_NATIVE",
+  "reviewed_at": "2026-11-14T02:44:36.419762+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Selected attempt-002 inspected. All S0 native deliveries contain the complete coherent v1 basis (chunk 446061b5, document e358e761, summary 2148f321 and matching graph/facts); canonical remains v0 at the read-only checkpoint, so local compatibility does not establish publication. P2 exception fires once after real old deletion 09235495 and before publish, native handler returns and pending work is zero. Default retry uses full_rebuild fallback chunks_not_tiling, acknowledges v1 and aligns subsequent services/canonical. R2 False full rebuild (disabled) leaves the same v1 roles. All 15 candidate mappings and timing rows inspected; stages and recovery triggers respect drain/observer/15-second boundaries; cross-check zero disagreements.",
+  "raw_seal_sha256": "40baca6fcfb9ff00382523b643a95c53e72d6d62408b34d1b39585d8b6b1cf04",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T02:50:54.947052+00:00",
+    "scope": "Exact node text/source IDs, all graph edges and vector payload text/parent IDs in S0/S1/S2, shown by tools.render_checkpoint_content; vector numbers and administrative metadata excluded.",
+    "note": "Read all 24 phase mappings and eight UUID maps. Every phase has complete v1 derived content: chunk/document, summary/parent, Alice-to-San Francisco and Company Y graph edges, matching edge-index facts, entity/type and document indexes. B1 and B2 differ in row order after rebuild, with the same semantic source values. This does not turn the four fault S0 canonical-v0 observations or protected refusals into publication success."
+  }
+}

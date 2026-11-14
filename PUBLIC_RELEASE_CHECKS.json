@@ -1,0 +1,18 @@
+{
+  "main_study_artifacts_unchanged": true,
+  "historical_privacy_scan": {
+    "historical_objects": 74,
+    "decompressed_members": 30447,
+    "known_private_path_secret_email_matches": 0
+  },
+  "supplemental_selected_sequences": 160,
+  "supplemental_probes": 2400,
+  "supplemental_updates": 480,
+  "faults": 80,
+  "raw_files": 8120,
+  "superseded_formal_attempts_recorded": 11,
+  "frozen_files_unchanged": 40,
+  "paired_504_rows_reproduced_byte_identically": true,
+  "new_native_runs_during_release": 0,
+  "scope": "Pattern-based privacy checks and offline content/hash/count verification; not a guarantee against all re-identification or a substitute for scientific review."
+}

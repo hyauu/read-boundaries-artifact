@@ -1,0 +1,16 @@
+{
+  "unit": "INCFAIL_81001_P1_INJECT_COORDINATED",
+  "reviewed_at": "2026-11-14T04:15:45.186826+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read every coded exact delta/dictionary against reviewed history81002 P1 Gate. S0 five DIRTY refusals/no candidates, canonicalv0 and mixed old/new derived inventory unchanged; P1 injected once before withdrawal, native error handler returned. R1 default full fallback chunks_not_tiling makes GateREADY and compatible complete v1; R2 explicit disabled rebuild keeps recovery. All ten successful candidate entries unchanged except hashes/source IDs; all15 latencies read (refusal1.151\u201314.248ms; returns76.914\u201394.545ms). Read update args/body/quiescence, recovery >=15sec/safe timing and zero-pending drains, all canonical/checkpoint ID/time changes. No disagreement. Full graph/vector supplemental pending.",
+  "raw_seal_sha256": "28212e4eba5c5c452f134e7ef697eddc832f32db3838e9a6a80dbf182abbf8b3",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T04:20:45.749581+00:00",
+    "display": "reports/review_displays/81001_P1_checkpoint_content.txt",
+    "delta": "reports/review_displays/81001_P1_checkpoint_content.delta.json",
+    "scope": "Actually read every exact checkpoint delta against the already fully read history81002/P1 batch, with an explicit unit renaming and proven reconstruction. All TEXT/BASIS/phase maps and unlisted IDs are exactly equal; every changed node/edge/vector identifier was displayed and read.",
+    "observation": "Four controls remain B1/B1/B2 (nine v1 nodes, ten edges, complete vectors); four injected P1 units remain B3/B4/B4 (13 mixed nodes and19 edges in S0, then nine v1 nodes/ten edges after recovery). Same-source parent mappings and all vector text fields are preserved. S0 TextDocument name is already v1 although separately sampled canonicalData stays v0. No metadata/vector-number line-by-line reading claimed."
+  }
+}

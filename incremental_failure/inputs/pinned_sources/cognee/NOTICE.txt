@@ -1,0 +1,3 @@
+The accompanying modules/retrieval/hybrid/facts.py is copied unchanged from Cognee 1.6.2, commit ba3631f2ed363a6ea50d649c34c56885af6b36fe.
+Source: https://github.com/topoteretes/cognee/blob/ba3631f2ed363a6ea50d649c34c56885af6b36fe/cognee/modules/retrieval/hybrid/facts.py
+Copyright 2024 Topoteretes UG. Distributed under the accompanying Apache License 2.0.

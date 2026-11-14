@@ -1,0 +1,14 @@
+{
+  "unit": "INCFAIL_81001_P2_NO_FAULT_NATIVE",
+  "reviewed_at": "2026-11-14T02:44:09.855485+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Selected attempt-002 inspected: all 15 service reads deliver complete locally compatible v1 through one native candidate each; graph city/employer edges and fact text agree with passage and summary. Source chunk d6e884c2 is tied to document 5d35c83a and summary f3cb499d. P2 is reached after acknowledged nonempty withdrawal, and canonical publication follows in the control. Target is incremental, R1 default is unchanged, R2 explicit False is full_rebuild (disabled). All checkpoints contain v1 and one chunk/summary; both recoveries respect native drain, checkpoint completion and 15-second minimum. Cross-check has 15 candidates and zero disagreements.",
+  "raw_seal_sha256": "b16e84d8bdb224d6c4214e5219d68700af76820972160f1575c1773a020c8a96",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T02:50:54.866325+00:00",
+    "scope": "Exact node text/source IDs, all graph edges and vector payload text/parent IDs in S0/S1/S2, shown by tools.render_checkpoint_content; vector numbers and administrative metadata excluded.",
+    "note": "Read all 24 phase mappings and eight UUID maps. Every phase has complete v1 derived content: chunk/document, summary/parent, Alice-to-San Francisco and Company Y graph edges, matching edge-index facts, entity/type and document indexes. B1 and B2 differ in row order after rebuild, with the same semantic source values. This does not turn the four fault S0 canonical-v0 observations or protected refusals into publication success."
+  }
+}

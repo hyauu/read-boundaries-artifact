@@ -1,0 +1,14 @@
+{
+  "unit": "INCFAIL_81001_P2_NO_FAULT_DOUBLE_READ",
+  "reviewed_at": "2026-11-14T02:48:47.053962+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Selected attempt-002 read as lossless round-trip delta against the already inspected P2 injected Double-read unit. Exact content/role structures are unchanged: all 30 candidates contain coherent complete v1, and n2 is published for all 15 probes. Control target reaches P2 after withdrawal then canonical publication succeeds; no injection/native-error-handler events. Canonical is v1 in all checkpoints and head1 throughout probes. R1 default returns unchanged, R2 False full rebuild (disabled). Updated source UUID bindings, payload hashes, all timings and native-drain/recovery boundaries inspected. Independent parser has 30 candidates and no disagreements.",
+  "raw_seal_sha256": "b104a7814b3ace365c21312d3a2f752badda7b1043f488aa269022647eade1b5",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T02:50:55.092322+00:00",
+    "scope": "Exact node text/source IDs, all graph edges and vector payload text/parent IDs in S0/S1/S2, shown by tools.render_checkpoint_content; vector numbers and administrative metadata excluded.",
+    "note": "Read all 24 phase mappings and eight UUID maps. Every phase has complete v1 derived content: chunk/document, summary/parent, Alice-to-San Francisco and Company Y graph edges, matching edge-index facts, entity/type and document indexes. B1 and B2 differ in row order after rebuild, with the same semantic source values. This does not turn the four fault S0 canonical-v0 observations or protected refusals into publication success."
+  }
+}

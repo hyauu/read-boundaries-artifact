@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-14T02:24:10.243016+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "main_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "main_executable": "/LOCAL_HOME\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "native_python": "/ARTIFACT_ROOT\\replication\\.venv\\Scripts\\python.exe",
+  "native_versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "cognee_file": "/ARTIFACT_ROOT\\replication\\.venv\\Lib\\site-packages\\cognee\\__init__.py",
+    "cognee": "1.6.2",
+    "lancedb": "0.39.0",
+    "ladybug": "0.19.0",
+    "aiosqlite": "0.22.1"
+  },
+  "physical_memory_bytes": 33456324608,
+  "available_memory_bytes": 1761787904,
+  "memory_load_pct": 94,
+  "receipt_filesystem": "exFAT D volume via C junction",
+  "temporary_native_storage": {
+    "runtime_root": "/LOCAL_HOME\\Documents\\ChatGPT\\incremental_failure_runtime",
+    "filesystem": "NTFS",
+    "authorization": "User approved only temporary databases on C drive; source and receipts stay in planned round",
+    "at": "2026-11-14T02:13:02.026487+00:00"
+  },
+  "network": "process guard denies nonloopback; deterministic local fixtures replace models"
+}

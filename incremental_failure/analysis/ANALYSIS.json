@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-14T06:11:20.381043+00:00",
+  "planned_units": 160,
+  "terminated_units": 160,
+  "unresolved_units": 0,
+  "planned_probes": 2400,
+  "executed_probes": 2400,
+  "study_updates": 480,
+  "fault_hits": 80,
+  "failed_machine_checks": [],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026111302,
+  "counterexample_probes": 400,
+  "scope": "Mechanism repetitions, sequential recovery, descriptive paired history intervals; missing stages are not failures."
+}

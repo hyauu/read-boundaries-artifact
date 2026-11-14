@@ -1,0 +1,15 @@
+{
+  "unit": "INCFAIL_81002_P1_INJECT_DOUBLE_READ",
+  "reviewed_at": "2026-11-14T04:10:03.218097+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read the complete focused public display in two bounded sections. P1 seq135/136 fired once after real new-derived ACK with withdrawal not started; native error handler returned and all phase drains reached zero. S0 all five double reads published their second candidate despite equal pair hashes: both candidates contained old Seattle/Company X and new San Francisco/Company Y chunks, summaries, graph and facts, with all roles present but incompatible versions 0/1; canonical and acknowledged head stayed v0. Ten later reads returned compatible complete v1 after R1 default full_rebuild fallback chunks_not_tiling; R2 explicitly disabled chunk diff and rebuilt v1 again. Both recovery triggers followed 15-second earliest timestamps and safe checkpoints. Read all 30 candidate entries, exact text/source dictionaries, update arguments/times and canonical/derived inventories. Cross-check reported no disagreements; full graph/vector checkpoint content supplemental reading remains pending.",
+  "raw_seal_sha256": "8130ac8997604221ad51e0001e79ef70b00323c36f841a83b21380cc60f9ca46",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T04:12:36.525198+00:00",
+    "display": "reports/review_displays/81002_P1_checkpoint_content.txt",
+    "scope": "Actually read all 24 phase projections through exact shared BASIS and complete per-unit UUID maps: every node text/type/parent, all edges, and every vector text/document/parent field. Metadata/vector coordinates excluded.",
+    "observation": "Four control units: B1/B1/B2, nine v1 nodes, ten edges, full v1 vector payloads with ordering change on R2. Four injected P1 units: B3/B4/B4; S0 has13 nodes and19 edges covering both city/employer versions, two chunk/summary vector rows and18 edge-text entries. TextDocument node name already v1 while separately read canonical table remains v0; these are distinct layers. R1/R2 remove old derived values and retain complete v1. Gate/Epoch refuse service although observer sees the mixed state."
+  }
+}

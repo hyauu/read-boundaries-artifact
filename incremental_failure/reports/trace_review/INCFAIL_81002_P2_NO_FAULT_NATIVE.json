@@ -1,0 +1,22 @@
+{
+  "unit": "INCFAIL_81002_P2_NO_FAULT_NATIVE",
+  "reviewed_at": "2026-11-14T05:48:44.747433+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Actually read the verified exact coded delta for selected attempt002 against already-reviewed history81001/P2/NO_FAULT/NATIVE: all15 delivered compatible complete v1 states, canonicalv1 and incremental/unchanged/explicit-full sequence inherit the exact baseline. Read every changed ID, payload hash, read latency, native lifecycle timestamp, recovery trigger and checkpoint interval. Retained S0_0 latency185.777ms (other probes70.774-95.489ms). Actual R1/R2 occur after their15s bounds and safe-read completion. No fault fired in the control. Supplementary complete graph/vector content reading remains separate; old superseded attempt001 review was not reused as certification.",
+  "raw_seal_sha256": "de3167b9339114b8e252ef8895c6f22d0de183fb1fae9097e5d81d2d42712fb6",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T05:56:32.820067+00:00",
+    "display": "reports\\review_displays\\81002_P2_attempt002_checkpoint_content.txt",
+    "sha256": "96f6e6f9d9b68b2feb186577b983b910dcf273b7db4a329f0dcc0379dd0a7e4e",
+    "actual_read": true,
+    "scope": "Actually read the complete exact TEXT T1-T18 dictionary, both complete BASIS projections, all eight per-unit UUID maps and S0/S1/S2 mappings. Nine graph nodes, ten edges, all nineteen vector payload rows across six collections per phase are represented; graph summary parent, chunk document links, edge IDs/text and vector document/parent fields were read. Administrative metadata and vector numeric coordinates remain archived and are not claimed line-by-line read.",
+    "phase_mapping": {
+      "S0": "B1",
+      "S1": "B1",
+      "S2": "B2"
+    },
+    "observations": "Every P2 checkpoint projection has only San Francisco / Company Y derived content, including the injected S0 inventory where the separately reviewed canonical Data still holds v0. Gate/Epoch caller refusals do not alter this read-only observer fact. B2 preserves the complete content but changes iteration order after full rebuild. Controls keep B1 through default unchanged R1; injected units change to B2 after native fallback R1. Duplicate punctuation in native edge text is retained. The new attempt002 review is separate from superseded attempt001."
+  }
+}

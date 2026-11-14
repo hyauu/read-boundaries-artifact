@@ -1,0 +1,14 @@
+{
+  "unit": "INCFAIL_81001_P2_NO_FAULT_EPOCH_VALIDATED",
+  "reviewed_at": "2026-11-14T02:49:53.462387+00:00",
+  "reviewer": "execution AI agent",
+  "kind": "Focused public execution-trace review; not human, blinded or institutionally independent",
+  "fields_read": "All three phases: service/candidates and exact source-content dictionaries, update arguments/outcomes, fault/error handling/recovery events and read-only canonical/derived inventories. Full native metadata remains archived; machine cross-check separately labeled.",
+  "note": "Selected attempt-002 inspected: control reaches P2 after actual old withdrawal and canonical publish completes. Target incremental gives READY even epoch2; R1 unchanged gives epoch4; R2 explicit full gives epoch6. All 15 one-attempt candidates validate ACCEPTED and provide coherent complete v1 passage/summary, graph and facts, tied to document5c81aed4/chunk3be8f255/summaryd2c31901. Canonical/checkpoints agree with v1 in all stages. No injection, error, discard or refusal. All timing and recovery/drain boundaries inspected; independent check15 candidates and zero disagreements.",
+  "raw_seal_sha256": "b0479c8329f25f9030efaf000e6f53768506cdf855b7a7e434f67d6baf130eb9",
+  "additional_checkpoint_reading": {
+    "at": "2026-11-14T02:50:55.102590+00:00",
+    "scope": "Exact node text/source IDs, all graph edges and vector payload text/parent IDs in S0/S1/S2, shown by tools.render_checkpoint_content; vector numbers and administrative metadata excluded.",
+    "note": "Read all 24 phase mappings and eight UUID maps. Every phase has complete v1 derived content: chunk/document, summary/parent, Alice-to-San Francisco and Company Y graph edges, matching edge-index facts, entity/type and document indexes. B1 and B2 differ in row order after rebuild, with the same semantic source values. This does not turn the four fault S0 canonical-v0 observations or protected refusals into publication success."
+  }
+}
